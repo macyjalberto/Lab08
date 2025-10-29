@@ -55,7 +55,6 @@ public class CustomList {
      * @throws IllegalArgumentException error if list already contains given City
      */
     public void deleteCity(City city) {
-    
     }
     
     /**
