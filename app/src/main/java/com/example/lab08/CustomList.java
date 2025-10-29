@@ -3,6 +3,10 @@ package com.example.lab08;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * class that keeps track of each Cities
+ * @author macy [and lab TAs]
+ */
 public class CustomList {
     private List<City> cities;
 

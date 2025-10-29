@@ -1,5 +1,10 @@
 package com.example.lab08;
 
+/**
+ * class that defines a City object
+ * contains getters for each Cities' city and province
+ * @author macy [and lab TAs]
+ */
 public class City {
     private String city;
     private String province;
