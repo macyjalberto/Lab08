@@ -55,13 +55,7 @@ public class CustomList {
      * @throws IllegalArgumentException error if list already contains given City
      */
     public void deleteCity(City city) {
-        // deletes city if in list
-        if (cities.contains(city)) {
-            cities.remove(city);
-        }
-        else { // throws an Exception if the given City is not in the list
-            throw new IllegalArgumentException("This city does not exist! Please try again.");
-        }
+    
     }
     
     /**
