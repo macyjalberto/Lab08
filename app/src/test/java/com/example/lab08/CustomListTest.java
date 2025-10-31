@@ -52,26 +52,26 @@ public class CustomListTest {
         assertEquals(1, list.getSize()); // should still be one because nothing was deleted
     }
 
-//    /**
-//     * tests whether the given amount of Cities in the list is correct
-//     */
-//    @Test
-//    void testCountCities() {
-//        CustomList list = new CustomList();
-//        assertEquals(0, list.countCities());
-//        City yellowknife = new City("Yellowknife", "Northwest Territories");
-//        list.addCity(yellowknife);
-//        assertEquals(1, list.countCities());
-//        City charlottetown = new City("Charlottetown", "Prince Edward Island");
-//        list.addCity(charlottetown);
-//        assertEquals(2, list.countCities());
-//        City regina = new City("Regina", "Saskatchewan");
-//        list.addCity(regina);
-//        assertEquals(3, list.countCities());
-//        // deletes City to see if counts right
-//        // (since we've already tested whether deleteCity works right)
-//        list.deleteCity(regina);
-//        assertEquals(2, list.countCities());
-//    }
+    /**
+     * tests whether the given amount of Cities in the list is correct
+     */
+    @Test
+    void testCountCities() {
+        CustomList list = new CustomList();
+        assertEquals(0, list.countCities());
+        City yellowknife = new City("Yellowknife", "Northwest Territories");
+        list.addCity(yellowknife);
+        assertEquals(1, list.countCities());
+        City charlottetown = new City("Charlottetown", "Prince Edward Island");
+        list.addCity(charlottetown);
+        assertEquals(2, list.countCities());
+        City regina = new City("Regina", "Saskatchewan");
+        list.addCity(regina);
+        assertEquals(3, list.countCities());
+        // deletes City to see if counts right
+        // (since we've already tested whether deleteCity works right)
+        list.deleteCity(regina);
+        assertEquals(2, list.countCities());
+    }
 
 }
